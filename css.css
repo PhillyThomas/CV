@@ -1,0 +1,396 @@
+@import url("https://fonts.googleapis.com/css?family=Kanit:900");
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700,900,400italic,700italic,900italic);
+*,
+:before,
+:after {
+  box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+body {
+  background-color: #fdf9fd;
+  color: #011a32;
+  font: 16px/1.25 "Raleway", sans-serif;
+  text-align: center;
+  height:auto;
+}
+#wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80em;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 1em;
+  width: 100%;
+}
+h1 {
+  animation: text-shadow 3s ease-in-out infinite;
+  font-size: 5em;
+  font-weight: 900;
+  line-height: 1;
+  font-family: "Bebas",sans-serif;
+}
+h2 {
+    animation: text-shadow-light 3s ease-in-out infinite;
+    font-size: 4em;
+    font-weight: 900;
+    line-height: 1;
+    font-family: "Bebas",sans-serif;
+  }
+a {
+    color:black;    
+    text-decoration:none;
+}
+a:hover {
+    text-decoration: none;
+    color:black;
+    text-shadow: 0 -0.125em 0 #2cfcfd, 0 0.125em 0 #fefc4b;
+}
+.bold {
+    font-family:"Anonymous Pro",sans-serif;
+    font-size: 2em;
+}
+.bold:hover{
+    color:#336bac;
+}
+h3 {
+    font-family:"Bebas",sans-serif;
+    font-size:2em;
+    margin-top:-50px;
+}
+h4 {
+    font-size:18px;
+    margin-top:-30px;
+}
+.CVanim {
+    animation: downloadanimation 3s ease-in-out infinite;
+}
+@keyframes downloadanimation {
+    0% {
+        transform: translateY(0);
+        text-shadow: 0 0 0 #2cfcfd, 0 0 0 #2cfcfd;
+    }
+    20% {
+        transform: translateY(-1em);
+        text-shadow: 0 0.125em 0 #2cfcfd, 0 0.25em 0 #2cfcfd, 0 -0.125em 0 #2cfcfd,
+        0 -0.25em 0 #2cfcfd;
+    }
+    40% {
+        transform: translateY(0.5em);
+        text-shadow: 0 -0.0625em 0 #2cfcfd, 0 -0.125em 0 #2cfcfd,
+        0 0.0625em 0 #2cfcfd, 0 0.125em 0 #2cfcfd;
+    }
+    60% {
+        transform: translateY(-0.25em);
+        text-shadow: 0 0.03125em 0 #2cfcfd, 0 0.0625em 0 #2cfcfd,
+        0 -0.03125em 0 #2cfcfd, 0 -0.0625em 0 #2cfcfd;
+    }
+    80% {
+        transform: translateY(0);
+        text-shadow: 0 0 0 #2cfcfd, 0 0 0 #2cfcfd, 0 0 0 #2cfcfd, 0 0 0 #2cfcfd;
+    }
+}
+.expcontainer a{
+    font-weight:bold;
+    color:#336bac;
+    text-decoration:underline;
+}
+.expcontainer a:hover{
+    color:black;
+    text-shadow: 0 -0.125em 0 #2cfcfd, 0 0.125em 0 #fefc4b;
+}
+@keyframes text-shadow {
+    0% {
+        transform: translateY(0);
+        text-shadow: 0 0 0 #0c2ffb, 0 0 0 #2cfcfd, 0 0 0 #fb203b, 0 0 0 #fefc4b;
+    }
+    20% {
+        transform: translateY(-1em);
+        text-shadow: 0 0.125em 0 #0c2ffb, 0 0.25em 0 #2cfcfd, 0 -0.125em 0 #fb203b,
+        0 -0.25em 0 #fefc4b;
+    }
+    40% {
+        transform: translateY(0.5em);
+        text-shadow: 0 -0.0625em 0 #0c2ffb, 0 -0.125em 0 #2cfcfd,
+        0 0.0625em 0 #fb203b, 0 0.125em 0 #fefc4b;
+    }
+    60% {
+        transform: translateY(-0.25em);
+        text-shadow: 0 0.03125em 0 #0c2ffb, 0 0.0625em 0 #2cfcfd,
+        0 -0.03125em 0 #fb203b, 0 -0.0625em 0 #fefc4b;
+    }
+    80% {
+        transform: translateY(0);
+        text-shadow: 0 0 0 #0c2ffb, 0 0 0 #2cfcfd, 0 0 0 #fb203b, 0 0 0 #fefc4b;
+    }
+}
+@keyframes text-shadow-light {
+    0% {
+        transform: translateY(0);
+        text-shadow: 0 0 0 #0c2ffb, 0 0 0 #2cfcfd, 0 0 0 #fb203b, 0 0 0 #fefc4b;
+    }
+    20% {
+        transform: translateY(0);
+        text-shadow: 0 0.125em 0 #0c2ffb, 0 0.25em 0 #2cfcfd, 0 -0.125em 0 #fb203b,
+        0 -0.25em 0 #fefc4b;
+    }
+    40% {
+        transform: translateY(0);
+        text-shadow: 0 -0.0625em 0 #0c2ffb, 0 -0.125em 0 #2cfcfd,
+        0 0.0625em 0 #fb203b, 0 0.125em 0 #fefc4b;
+    }
+    60% {
+        transform: translateY(0);
+        text-shadow: 0 0.03125em 0 #0c2ffb, 0 0.0625em 0 #2cfcfd,
+        0 -0.03125em 0 #fb203b, 0 -0.0625em 0 #fefc4b;
+    }
+    80% {
+        transform: translateY(0);
+        text-shadow: 0 0 0 #0c2ffb, 0 0 0 #2cfcfd, 0 0 0 #fb203b, 0 0 0 #fefc4b;
+    }
+}
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+.parallax-img {
+    background-image: url('bg.jpg');
+    opacity: 0.5;
+  }
+.parallax-img {
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .wrapper {
+    height: auto;
+  }
+  .smallspacer{
+      height:75px;
+  }
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
+}
+.bigcontain {
+    background:#fdf9fd;
+    padding:10px;
+    display:inline-block;
+}
+.contain {
+    margin: 15px;
+    text-align:left;
+    display:block;
+}
+.p1 {
+    font-family: "Bebas", sans-serif;
+    font-size: 60px;
+    line-height: 1em;
+    text-align: center;
+}
+.p2 {
+    font-family: 'Anonymous Pro', sans-serif;
+    font-size:25px;
+}
+.p3 {
+    font-family: 'Anonymous Pro', sans-serif;
+    font-size:14px;
+}
+.footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:50px;
+    width:100%;
+    background:#fdf9fd;
+    padding-bottom:5px;
+ }
+ .datetext {
+     font-weight:bold;
+     font-size:100px;
+ }
+ .fixedspacer {
+     height:100%;
+ }
+ .containcenternoflex{
+    margin: 15px;
+}  
+.containcenter {
+    margin: 15px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align:left;
+}
+.skillcenter {
+    width:30em;
+}
+/*-- SMALL DESKTOP --*/
+@media(min-width: 768px) {
+    h1 {
+        animation: text-shadow 3s ease-in-out infinite;
+        font-size: 4em;
+        font-weight: 900;
+        line-height: 1;
+        font-family: "Bebas",sans-serif;
+      }
+    .p1 {
+        font-family: "Bebas", sans-serif;
+        font-size: 30px;
+        line-height: 1em;
+        text-align: center;
+    }
+    .p2 {
+        font-family: 'Anonymous Pro', sans-serif;
+        font-size:45px;
+    }
+    .p3 {
+        font-family: 'Anonymous Pro', sans-serif;
+        font-size:30px;
+    }
+    .contain {
+        margin: 5px;
+        text-align:left;
+        display:block;
+    }
+    .containcenter {
+        margin: 5px;
+        text-align:center;
+        display:block;
+    }
+    .bold {
+        font-family:"Anonymous Pro",sans-serif;
+        font-size: 2em;
+    }
+    .codeicon {
+        margin-right:2em; 
+        margin-left:2em;
+    }
+    .softwareicon {
+        margin-right:2em; 
+        margin-left:2.3em;
+    }
+    .pcicon {
+        margin-right:2em; 
+        margin-left:2.1em;
+    }
+    .expcontainer {
+        font-family:"Anonymous Pro",sans-serif;
+        font-size:1em;
+    }
+    .containcenternoflex{
+        margin: 15px;
+    }  
+    .containcenter {
+        margin: 15px;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        text-align:left;
+    }
+    .skillcenter {
+        width:30em;
+    }
+} 
+/*-- DESKTOP --*/
+@media(min-width: 992px) {
+    .p1 {
+        font-family: "Bebas", sans-serif;
+        font-size: 60px;
+        line-height: 1em;
+        text-align: center;
+    }
+    .p2 {
+        font-family: 'Anonymous Pro', sans-serif;
+        font-size:25px;
+    }
+    .p3 {
+        font-family: 'Anonymous Pro', sans-serif;
+        font-size:14px;
+    }
+    .expcontainer {
+        font-family:"Anonymous Pro",sans-serif;
+        font-size:1em;
+    }
+    .containcenternoflex{
+        margin: 15px;
+    }  
+    .containcenter {
+        margin: 15px;
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        text-align:left;
+    }
+    .skillcenter {
+        width:30em;
+        flex-basis:100%;
+    }
+} 
+/*-- BIG DESKTOP (rarely used, but can be useful) --*/
+@media(min-width: 1280px) {
+    .p1 {
+        font-family: "Bebas", sans-serif;
+        font-size: 60px;
+        line-height: 1em;
+        text-align: center;
+    }
+    .p2 {
+        font-family: 'Anonymous Pro', sans-serif;
+        font-size:25px;
+    }
+    .p3 {
+        font-family: 'Anonymous Pro', sans-serif;
+        font-size:14px;
+    }
+    .bold {
+        font-family:"Anonymous Pro",sans-serif;
+        font-size: 2em;
+    }
+    .codeicon {
+        margin-right:15px; 
+        margin-left:2em;
+    }
+    .softwareicon {
+        margin-right:20px; 
+        margin-left:2.3em;
+    }
+    .pcicon {
+        margin-right:15px; 
+        margin-left:2.1em;
+    }
+    .expcontainer {
+        font-family:"Anonymous Pro",sans-serif;
+        font-size:1em;
+        width:60%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+   .containcenternoflex{
+        margin: 15px;
+    }  
+    .containcenter {
+        margin: 15px;
+        display:flex;
+        justify-content:center;
+        flex-direction:row;
+        text-align:left;
+    }
+    .skillcenter {
+        width:30em;
+        flex-basis:50%;
+    }
+}
